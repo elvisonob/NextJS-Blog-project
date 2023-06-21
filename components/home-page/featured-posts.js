@@ -1,9 +1,11 @@
-function FeaturedPost() {
+import classes from './featured-posts.module.css';
+
+function FeaturedPosts() {
   return (
-    <div>
-      <h1>Oluwa is great</h1>
-    </div>
+    <section className={classes.latest}>
+      <h2>Featured Posts</h2>A list of posts
+    </section>
   );
 }
 
-export default FeaturedPost;
+export default FeaturedPosts;
